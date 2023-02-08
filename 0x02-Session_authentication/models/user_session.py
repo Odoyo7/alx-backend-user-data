@@ -9,7 +9,7 @@ class UserSession(Base):
     UserSession class
     """
 
-    def __init__ (self, *args: list, **kwargs: dict):
+    def __init__(self, *args: list, **kwargs: dict):
         """
         Initialize a UserSession instance
         """
