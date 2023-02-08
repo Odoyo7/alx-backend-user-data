@@ -8,8 +8,8 @@ from models.user_session import UserSession
 
 class SessionDBAuth(SessionExpAuth):
     """
-    Definition of SessionDBAuth class that persists session data
-    in a database
+    Definition of SessionDBAuth class that persists session
+    data in a database
     """
 
     def create_session(self, user_id=None):
